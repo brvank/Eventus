@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/drawable/add.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/drawable/delete.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/activity_event_board.xml" value="0.1" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/event_box.xml" value="0.264" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/new_event.xml" value="0.25" />
+        <entry key="..\:/Users/brvAnk/OneDrive/Desktop/androidstudio/Eventus/app/src/main/res/layout/task_box.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

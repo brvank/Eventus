@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_email_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        style="@style/margins"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/et_password_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        style="@style/margins"
+        android:hint="Password"/>
+        <!--textWebPassword in place of textPassword-->
+
+    <TextView
+        android:id="@+id/tv_forgot_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        style="@style/margins"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_login_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        style="@style/margins"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_guest_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/margins"
+        android:text="Guest"/>
+
+</LinearLayout>

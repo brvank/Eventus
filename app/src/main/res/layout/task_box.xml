@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/teal_200"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Task"/>
+
+        <TextView
+            android:id="@+id/tv_task_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Details"/>
+
+        <TextView
+            android:id="@+id/tv_task_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Deadline"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_task_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edit"/>
+
+    <ImageView
+        android:id="@+id/iv_task_delete"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"/>
+
+</LinearLayout>
